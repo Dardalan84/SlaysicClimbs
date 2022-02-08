@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slug Life ❤️🖤️❤️</title>
+    <link rel="stylesheet" href="resources/css/index.css">
+    <script type="text/javascript" src="resources/js/processing.js"></script> 
+</head>
+<body id="main">
+    <h1 >Slaysic Climbs!</h1>
+    <h2></h2>
+      <p>
+         <div id="puzzle">   
+          <!--Short Dude 5.11 and The Slider v4--> <iframe width="560" height="315" src="https://www.youtube.com/embed/5vX_67BwTBg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <!--The Plank v2--> <iframe width="560" height="315" src="https://www.youtube.com/embed/UH_mZ2ei2cc" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+       <br>
+        <script type="text/processing">
+            PImage heart;
+            void setup(){
+                size(1000,100);
+                noFill();
+                frameRate(10);
+                heart = loadImage("resources/js/data/heart.png");
+            }
+              
+              void draw() {
+                background(#08FAE4);
+                strokeWeight(random(15,25));
+                stroke(random(200,250),random(100,250),random(200,250));
+                float rainbowSize = random(250,280);
+                ellipse(250,140,rainbowSize,rainbowSize);
+                stroke(random(20,200),random(100,250),random(200,250));
+                ellipse(500,140,rainbowSize,rainbowSize);
+                stroke(random(200,250),random(100,250),random(2,250));
+                ellipse(750,140,rainbowSize,rainbowSize);
+                stroke(random(200,250),random(100,250),random(2,250));
+                ellipse(50,140,rainbowSize,rainbowSize);
+                stroke(random(200,250),random(100,250),random(2,250));
+                ellipse(950,140,rainbowSize,rainbowSize);
+                image(heart,mouseX-20,mouseY-20);
+              }
+        </script>
+        <canvas id="sketch">yo</canvas>
+
+       
+  </p>
+</body>
+</html>
