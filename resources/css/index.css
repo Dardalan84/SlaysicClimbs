@@ -1,6 +1,6 @@
 h1 {
    border:  3px double pink;
-   background-image: url("/data/headerrock.PNG");
+   background-image: url("data/headerrock.PNG");
     text-align: center;
     font-family: 'Trebuchet MS';
     font-size: 120px;
